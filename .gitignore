@@ -2,7 +2,6 @@
 __pycache__/
 *.py[cod]
 *$py.class
-blog.db
 
 # C extensions
 *.so
