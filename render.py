@@ -13,7 +13,7 @@ site_dir.mkdir(exist_ok=True)
 
 
 # 3 - Criar uma função para gera a url com slug
-def get_post_url(post:dict):
+def get_post_url(post: dict):
     slug = post["title"].lower().replace(" ", "-")
     return f"{slug}.html"
 
